@@ -1,9 +1,8 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
+let userInput;
 
-let userInput = prompt("Give password");
-
-message = userInput
+userInput = prompt("Enter password");
 
 if(userInput == null){
   message = "Oтмененно пользователем!"
@@ -14,3 +13,4 @@ if(userInput == null){
 };
 
 alert(message);
+

@@ -1,5 +1,4 @@
-const userCountry = prompt("Emter your country").toLowerCase();
-
+const userCountry = prompt("Enter your country").toLowerCase();
 
 switch (userCountry) {
     case "китай":
